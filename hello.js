@@ -1,3 +1,4 @@
+var restify = require('restify');
 var builder = require('botbuilder');
 
 var connector = new builder.ConsoleConnector().listen();
